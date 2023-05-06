@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+}
+@media (min-width: 320px) and (max-width: 1024px){
+  .header-menu-phone{
+    height: 63px;
+    background-color: #1B294B;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .header-phone{
+    height: 658px;
+    background: linear-gradient(174.03deg, #030E28 52.32%, rgba(0, 0, 0, 0) 117.29%), url("./assets/bg.png");
+  }
+  .header-title-parag h1{
+    margin:0;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 38px;
+  }
+}
