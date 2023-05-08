@@ -7,6 +7,7 @@ import Componente from './componentes/Componente';
 import Testimonials from './componentes/Testimonials';
 import Work from "./componentes/Work";
 import Clients from './componentes/Clients';
+import Team from './componentes/Team';
 function App() {
   return (
     <div className='app'>
@@ -18,6 +19,7 @@ function App() {
       <Testimonials />
       <Work />
       <Clients />
+      <Team />
     </div>
   );
 }
