@@ -20,6 +20,18 @@
   .header-phone{
     height: 658px;
     background: linear-gradient(174.03deg, #030E28 52.32%, rgba(0, 0, 0, 0) 117.29%), url("./assets/bg.png");
+    display: flex;
+    flex-direction: column;
+    padding: 54px 15px 0px 15px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  
+  .header-title-parag{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
   }
   .header-title-parag h1{
     margin:0;
@@ -28,5 +40,66 @@
     font-family: 'IBM Plex Sans';
     font-weight: 700;
     font-size: 38px;
+    width: 295px;
+    height: 147px;
+    
   }
+  .header-title-parag p{
+    font-family: 'Caveat';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 104%;
+    color: #FFFFFF;
+    width: 295px;
+    height: 50px;
+    
+  }
+ 
+  .frame1438{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-top: 20px;
+    
+}
+.li-flex{
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+.frame1049{
+  display: flex;
+  flex-direction: row;
+  width: 284.16px;
+  justify-content: space-evenly;
+  align-items: end;
+  padding: 28px 0px 39px 0px;
+}
+.frame136{
+  background: linear-gradient(129.65deg, #C4070D -116.6%, #F45359 104.91%);
+  width: 294.19px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame1063{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'IBM Plex Sans';
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  gap: 18px;
+}
 }
