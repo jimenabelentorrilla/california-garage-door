@@ -462,9 +462,7 @@
   flex-direction: column;
   align-items: center;
 }
-.card-team-size{
 
-}
 .card-team-size img{
   width: 220.67px;
   height: 288px;
@@ -489,5 +487,47 @@
   letter-spacing: 0.03em;
   text-transform: capitalize;
   color: #1D1818;
+}
+/******************************/
+.rectangle814{
+  height: 575px;
+  background: #111827;
+}
+.frames-str-ftr{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:11px;
+}
+.paragraph-footer{
+  height: 86px;
+  font-family: 'IBM Plex Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 138.5%;
+  color: #FFFFFF;
+}
+.tlph-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:14px;
+}
+.tlph-flex p{
+  font-family: 'IBM Plex Sans';
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 25px;
+  letter-spacing: -0.04em;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+.footer-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:35px;
+  padding-top: 50px;
 }
 }

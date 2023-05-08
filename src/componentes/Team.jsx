@@ -49,7 +49,7 @@ function Team() {
             <p>Meet Our Professional Team</p>
         </div>
        
-       <Carousel responsive={responsive} infinite={true}>
+       <Carousel responsive={responsive} infinite={true} >
            <div className='card-team-flex'>
                 <CardTeam 
                     imagen={ImgTeam}
