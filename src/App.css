@@ -65,13 +65,14 @@
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    /*gap: 4px;*/
     /*padding-top: 20px;*/
     
 }
 .li-flex{
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 7px;
 }
 .frame1049{
