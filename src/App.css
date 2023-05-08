@@ -1,8 +1,9 @@
 #root {
   max-width: 1280px;
   margin: 0;
+  padding: 0;
 }
-@media (max-width: 1024px){
+@media (width >= 320px){
   .header-menu-phone{
     height: 63px;
     background-color: #1B294B;
