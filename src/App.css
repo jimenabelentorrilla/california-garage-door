@@ -191,7 +191,7 @@
 }
 /**********************/
 .frame1190{
-  height: 2639px;
+  height: 2670px;
   background: #FFFFFF;
  
 }
@@ -276,5 +276,76 @@
 }
 .call-flex{
   padding: 35px 0 24px 0;
+}
+/*****************************/
+.frame375{
+  height: 520px;
+  background: #EBF2FF;
+  
+}
+.frame735-box{
+  display: flex;
+  gap:9px;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame375 h3{
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 140%;
+  text-align: center;
+  color: #1D1818;
+  padding-top: 39px;
+  margin:0;
+}
+.frame375 p{
+  font-family: 'IBM Plex Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #2E74EE;
+}
+.testi-img{
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+/*****************************/
+.frame-gallery{
+  height: 417px;
+  background: radial-gradient(51.53% 49.47% at 61.04% 40.94%, #0E151F 0%, #192440 82.15%, #192440 100%); 
+}
+.frame1146{
+  display: flex;
+  flex-direction: column;
+  gap:3px;
+  padding: 30px 0px;
+
+}
+
+.frame1146 h3{
+  margin:0;
+  font-family: 'IBM Plex Sans';
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 125.5%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.frame1146 p{
+  font-family: 'IBM Plex Sans';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.rct-818{
+  display: flex;
+  justify-content: center;
 }
 }

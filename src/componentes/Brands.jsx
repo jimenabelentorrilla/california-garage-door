@@ -9,8 +9,6 @@ import Raynor from "../assets/raynor.png";
 import Sommer from "../assets/sommer.png";
 import Wayne from "../assets/wayne.png";
 
-
-
 function Brands() {
   return (
     <div className='frame1182'>

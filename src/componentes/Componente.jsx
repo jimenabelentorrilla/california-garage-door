@@ -23,9 +23,9 @@ function Job ({img, subtitle }){
 
 
 function Componente() {
-  return (
+return (
     <div className='frame1190'>
-       <div className='frame1190-flex'>
+        <div className='frame1190-flex'>
             <h3>Texas <br /> Garage Door Repair Services</h3>
             <p>We fix all types and components of garage doors or gates</p>
             <div className='jobs-flex'>
@@ -65,10 +65,9 @@ function Componente() {
                     <span>CALL NOW</span>
                 </div>
             </div>
-            
-       </div>
+        </div>
     </div>
-  );
+);
 }
 
 export default Componente;
