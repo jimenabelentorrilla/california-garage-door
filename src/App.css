@@ -25,13 +25,16 @@
   .header-phone{
     height: 658px;
     background: linear-gradient(174.03deg, #030E28 52.32%, rgba(0, 0, 0, 0) 117.29%), url("./assets/bg.png");
-    display: flex;
-    flex-direction: column;
-    padding: 54px 15px 0px 15px;
+    
     background-repeat: no-repeat;
     background-position: bottom;
   }
-  
+  .header-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 54px 15px 0px 15px;
+  }
   .header-title-parag{
     display: flex;
     flex-direction: column;
@@ -46,7 +49,7 @@
     font-weight: 700;
     font-size: 38px;
     width: 295px;
-    height: 147px
+    height: 147px;
     
   }
   .header-title-parag p{
@@ -56,7 +59,7 @@
     line-height: 104%;
     color: #FFFFFF;
     width: 295px;
-    height: 3.125em;
+    height: 50px;
     
   }
  
@@ -94,6 +97,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .frame1063{
   display: flex;
@@ -107,5 +111,170 @@
   text-transform: uppercase;
   color: #FFFFFF;
   gap: 1.125em;
+}
+/**********section two****************/
+.frame1195{
+  height: 954px;
+  background: linear-gradient(180deg, #FFFFFF -2.62%, #E8F0FF 87.3%);
+}
+.frame1195 h2{
+  font-family: 'IBM Plex Sans';
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 125.5%;
+  text-align: center;
+  color: #1D1818;
+  padding: 47px 0px 30px 0px;
+}
+.img-group-flex{
+  display: flex;
+  justify-content: center;
+  padding: 40px 17px;
+}
+.img-group{
+  width: 286.92px;
+  height: 211px;
+}
+.frame940{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 250px;
+  height: 92px;
+}
+.frame919{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:24px;
+}
+.frame940 p{
+  width: 220px;
+  height: 92px;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 144%;
+  color: #1D1818;
+  }
+/***************tercer row***********************/
+.frame1182{
+  height: 359px;
+  background: #2E74EE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.frame1182 h3{
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 125.5%;
+  color: #FFFFFF;
+  width: 225px;
+  height: 75px;
+  padding: 29px 37px 24px 37px;
+  text-align: center;
+  margin: 0;
+}
+.brands-flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  width: 275px;
+  align-items: center;
+}
+/**********************/
+.frame1190{
+  height: 2639px;
+  background: #FFFFFF;
+ 
+}
+.frame1190-flex{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frame1190-flex h3{
+  font-family: 'IBM Plex Sans';
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 125.5%;
+  text-align: center;
+  color: #19243F;
+  width: 260px;
+  margin: 0;
+  padding: 30px 30px 18px 30px;
+}
+.frame1190-flex p{
+  font-family: 'IBM Plex Sans';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #2E74EE;
+  width: 271px;
+  padding: 0px 25px 32px 25px;
+}
+.frame1408{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 300px;
+  height: 230.27px;
+}
+.frame1407{
+  width: 300px;
+  height: 77.84px;
+  background: #19243F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame1407 p{
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17.027px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 256px;
+  padding: 0;
+}
+.jobs-flex{
+  display: flex;
+  flex-direction: column;
+  gap:24px;
+}
+.frame136-2{
+  display: flex;
+  flex-direction: row;
+  gap: 8.18px;
+  align-items: center;
+  justify-content: center;
+  width: 267px;
+  height: 68px;
+  cursor: pointer;
+  background: linear-gradient(103.92deg, #C4070D -1.44%, #F45359 77.82%);
+}
+.frame136-2 span{
+  font-family: 'IBM Plex Sans';
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.call-flex{
+  padding: 35px 0 24px 0;
 }
 }
