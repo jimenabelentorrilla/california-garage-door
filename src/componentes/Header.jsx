@@ -3,6 +3,7 @@ import PointRed from "../assets/Point.png";
 import Google from "../assets/Frame 1047.png";
 import Yelp from "../assets/Frame 1048.png";
 import Tel from "../assets/Frame 1422.png";
+import Boy from "../assets/garage-boy.png";
 
 function Header() {
   return (
@@ -35,7 +36,7 @@ function Header() {
                             <img src={PointRed} />
                         </div>
                         <div>
-                            <p>Your Local Garage Door <br />Repair Company</p>
+                            <p>Your Local Garage Door Repair Company</p>
                         </div>
                     </div>
                     <div className='li-flex'>
@@ -53,7 +54,7 @@ function Header() {
                     <img src={Yelp} />
                 </div>
                 <div>
-                    <img src={Google} />
+                    <img  src={Google} />
                 </div>
             </div>
             <div className='frame136'>
@@ -62,6 +63,10 @@ function Header() {
                     <p>999-999-9999</p>
                 </div>
             </div>
+            <div>
+                <img className="boy" src={Boy}/>
+            </div>
+                
         </div>
     </div>
   );

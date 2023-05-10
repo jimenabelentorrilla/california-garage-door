@@ -1,20 +1,31 @@
 import React from 'react'
-import Logo from "../assets/cgr california 1.png";
+import Logo from "../assets/logo-nav.png";
 import Frame1005 from "../assets/Frame 1505.png";
-import Frame1006 from "../assets/Frame 1506.png";
+import MapPin from "../assets/map-pin.png";
+import Group931 from "../assets/Group 931-md.png"
 
 function Nav() {
   return (
     <div className='header-menu-phone'>
         <div className='nav'>
-            <div>
+            <div className='logo-nav'>
                 <img src={Logo}></img>
             </div>
-            <div>
-                <img src={Frame1006}></img>
+            <div className='frame1506'>
+                <img src={MapPin}></img>
+                <p>Texas</p>
             </div>
-            <div>
-                <img src={Frame1005}></img>
+            <div className='frame106'>
+                <ul>
+                    <a href=''><li>About us</li></a>
+                    <a href=''><li>Services</li></a>
+                    <a href=''><li>Testimonials</li></a>
+                    <a href=''><li>Reviews</li></a>
+                </ul>
+            </div>
+            <div className='frame137'>
+                <img src={Group931}></img>
+                <p>Call us now</p>
             </div>
         </div>
     </div>
