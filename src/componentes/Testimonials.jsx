@@ -4,6 +4,18 @@ import Review2 from "../assets/review2.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+import Client1 from "../assets/review.jpg";
+import Client2 from "../assets/review (1).jpg";
+import Client3 from "../assets/review (2).jpg";
+import Client4 from "../assets/review (3).jpg";
+import Client5 from "../assets/review (4).jpg";
+import Client6 from "../assets/review (5).jpg";
+import Client7 from "../assets/review (6).jpg";
+import Client8 from "../assets/review (7).jpg";
+import Client9 from "../assets/review (8).jpg";
+
+
+
 function Testimonials() {
   const responsive = {
     superLargeDesktop: {
@@ -13,7 +25,7 @@ function Testimonials() {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 4
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -41,7 +53,37 @@ function Testimonials() {
               <div>
                 <img src={Review1} />
               </div>
-        </Carousel>
+          </Carousel>
+        </div>
+        <div className='gallery-testimonials'>
+          <div>
+            <img src={Client1} />
+          </div>
+          <div>
+            <img src={Client2} />
+          </div>
+          <div>
+            <img src={Client3} />
+          </div>
+          <div>
+            <img src={Client4} />
+          </div>
+          <div>
+            <img src={Client5} />
+          </div>
+          <div>
+            <img src={Client6} />
+          </div>
+          <div>
+            <img src={Client7} />
+          </div>
+          <div>
+            <img src={Client8} />
+          </div>
+          <div>
+            <img src={Client9} />
+          </div>
+          
         </div>
         
         

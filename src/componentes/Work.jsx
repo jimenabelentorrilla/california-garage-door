@@ -18,7 +18,7 @@ function Work() {
         },
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
-          items: 3
+          items: 5
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
@@ -35,8 +35,8 @@ function Work() {
             <h3>See Our Work</h3>
             <p>See our Texas team at work</p>
         </div>
-       
-       <Carousel responsive={responsive} infinite={true}>
+       <div className='carousel-work'>
+        <Carousel responsive={responsive} infinite={true}>
             <div className='rct-818'> 
                 <img src={ImgWork}/>
             </div>
@@ -56,6 +56,27 @@ function Work() {
                 <img src={ImgWork5}/>
             </div>
         </Carousel>
+       </div>
+       <div className='gallery-work'>
+          <div>
+            <img src={ImgWork} />
+          </div>
+          <div>
+            <img src={ImgWork1} />
+          </div>
+          <div>
+            <img src={ImgWork2} />
+          </div>
+          <div>
+            <img src={ImgWork3} />
+          </div>
+          <div>
+            <img src={ImgWork4} />
+          </div>
+          <div>
+            <img src={ImgWork5} />
+          </div>          
+        </div>
     </div>
     
   );

@@ -15,31 +15,31 @@ function Brands() {
         <h3>We Repair All Garage Door And Gate Brands in Texas</h3>
         <div className='brands-flex'>
             <div>
-                <img src={Ammar} />
+                <img className="ammar" src={Ammar} />
             </div>
             <div>
-                <img src={Wayne} />
+                <img className="wayne" src={Wayne} />
             </div>
             <div>
-                <img src={Chi} />
+                <img className="chi" src={Chi} />
             </div>
             <div>
-                <img src={Clopay} />
+                <img className="clopay" src={Clopay} />
             </div>
             <div>
-                <img src={Raynor} />
+                <img className="raynor" src={Raynor} />
             </div>
             <div>
-                <img src={Overhead} />
+                <img className="overhead" src={Overhead} />
             </div>
             <div>
-                <img src={Liftmaster} />
+                <img className="liftmaster" src={Liftmaster} />
             </div>
             <div>
-                <img src={Genie} />
+                <img className="genie" src={Genie} />
             </div>
             <div>
-                <img src={Sommer} />
+                <img className="sommer" src={Sommer} />
             </div>
             
         </div>
