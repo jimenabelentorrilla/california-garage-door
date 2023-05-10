@@ -21,7 +21,6 @@ function CardTeam({ imagen, name, position}) {
     );
 }
 
-
 function Team() {
     const responsive = {
         superLargeDesktop: {
@@ -35,7 +34,7 @@ function Team() {
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
-          items: 2
+          items: 3
         },
         mobile: {
           breakpoint: { max: 464, min: 0 },

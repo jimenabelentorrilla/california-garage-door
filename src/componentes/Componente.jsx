@@ -9,6 +9,8 @@ import ImgJob6 from "../assets/Frame 1406 (6).png";
 import ImgJob7 from "../assets/Frame 1406 (7).png";
 import ImgJob8 from "../assets/Frame 1406 (8).png";
 import Frame1422 from "../assets/Frame 1422.png";
+import ArrowIzq from "../assets/arrow izq.png";
+import ArrowDer from "../assets/arrow der.png";
 
 function Job ({img, subtitle }){
     return (
@@ -21,12 +23,11 @@ function Job ({img, subtitle }){
     );
 }
 
-
 function Componente() {
 return (
     <div className='frame1190'>
         <div className='frame1190-flex'>
-            <h3>Texas <br /> Garage Door Repair Services</h3>
+            <h3>Texas Garage Door Repair Services</h3>
             <p>We fix all types and components of garage doors or gates</p>
             <div className='jobs-flex'>
                 <Job 
@@ -58,11 +59,17 @@ return (
                     subtitle="Damaged garage door tracks fix" />                                   
             </div>
             <div className='call-flex'>
+                <div className='arrow'>
+                    <img src={ArrowIzq} />
+                </div>
                 <div className='frame136-2'>
                     <div>
-                        <img src={Frame1422}/>
+                        <img className='phone-width' src={Frame1422}/>
                     </div>
                     <span>CALL NOW</span>
+                </div>
+                <div className='arrow'>
+                    <img src={ArrowDer} />
                 </div>
             </div>
         </div>

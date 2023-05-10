@@ -1,17 +1,13 @@
 import React from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Rectangle811 from "../assets/Rectangle 811.png";
 import Ellipse236A from "../assets/Ellipse 236.png";
 import Ellipse236B from "../assets/Ellipse 236 (1).png";
 import Ellipse236C from "../assets/Ellipse 236 (2).png";
 import Ellipse236D from "../assets/Ellipse 236 (3).png";
 import Ellipse236E from "../assets/Ellipse 236 (4).png";
-import Ellipse236F from "../assets/Ellipse 236 (4).png";
-
-
+import Ellipse236F from "../assets/Ellipse 236 (5).png";
 import Stars from "../assets/stars.png";
-import GoogleIcon from "../assets/google.png";
 
 function CardClient({ profile , name, paragraph}) {
     return (
@@ -32,8 +28,6 @@ function CardClient({ profile , name, paragraph}) {
         </div>
     );
 }
-
-
 
 function Clients() {
     const responsive = {
@@ -92,6 +86,12 @@ function Clients() {
                 <CardClient 
                 profile= {Ellipse236E}
                 name="Susana Horia"
+                paragraph="Great experience! Submitted an on-line estimate request and Sean called me within an hour and came over that day to give me an estimate.  We discussed what needed to be done to replace the garage door."/>
+            </div>
+            <div className="frame1062">
+                <CardClient 
+                profile= {Ellipse236F}
+                name="La gallina turuleca"
                 paragraph="Great experience! Submitted an on-line estimate request and Sean called me within an hour and came over that day to give me an estimate.  We discussed what needed to be done to replace the garage door."/>
             </div>
         </Carousel>

@@ -13,9 +13,9 @@ function CheckList ({ paragraph }){
 
 function SectionTwo() {
   return (
-    <div>
+    <div id="about-us"> 
         <div className='frame1195'>
-            <h2>Garage Door Repair<br/>Experts in Texas <br/>Since 2006</h2>
+            <h2>Garage Door Repair Experts in Texas Since 2006</h2>
             <div className='frame919'>
                 <CheckList 
                     paragraph= "We’re a Family-Owned Business that’s been giving quality service to area locals since 2006." />

@@ -9,16 +9,19 @@ function Footer() {
   return (
     <div className='rectangle814'>
         <div className='footer-flex'>
-            <div>
-                <img src={LogoFooter}/>
+            <div className='footer-flex-tablet'>
+                <div>
+                    <img src={LogoFooter}/>
+                </div>
+                <div className='tlph-flex'>
+                    <img src={Group931}/>
+                    <p>999 999 9999</p>
+                </div>
+                <div className='paragraph-footer'>
+                    <p>Local Family Owned Garage Repair <br />and Installation Service that Comes<br />to  the Rescue 24/7</p>
+                </div>
             </div>
-            <div className='tlph-flex'>
-                <img src={Group931}/>
-                <p>999 999 9999</p>
-            </div>
-            <div className='paragraph-footer'>
-                <p>Local Family Owned Garage Repair <br />and Installation Service that Comes<br />to  the Rescue 24/7</p>
-            </div>
+            
             <div className='frames-str-ftr'>
                 <div>
                     <img src={Frame1177}/>

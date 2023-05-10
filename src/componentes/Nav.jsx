@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from "../assets/logo-nav.png";
-import Frame1005 from "../assets/Frame 1505.png";
 import MapPin from "../assets/map-pin.png";
 import Group931 from "../assets/Group 931-md.png"
 
@@ -17,7 +16,7 @@ function Nav() {
             </div>
             <div className='frame106'>
                 <ul>
-                    <a href=''><li>About us</li></a>
+                    <a href='#about-us'><li>About us</li></a>
                     <a href=''><li>Services</li></a>
                     <a href=''><li>Testimonials</li></a>
                     <a href=''><li>Reviews</li></a>
