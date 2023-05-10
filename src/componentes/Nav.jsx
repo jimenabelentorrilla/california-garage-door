@@ -17,9 +17,9 @@ function Nav() {
             <div className='frame106'>
                 <ul>
                     <a href='#about-us'><li>About us</li></a>
-                    <a href=''><li>Services</li></a>
-                    <a href=''><li>Testimonials</li></a>
-                    <a href=''><li>Reviews</li></a>
+                    <a href='#services'><li>Services</li></a>
+                    <a href='#testimonials'><li>Testimonials</li></a>
+                    <a href='#reviews'><li>Reviews</li></a>
                 </ul>
             </div>
             <div className='frame137'>

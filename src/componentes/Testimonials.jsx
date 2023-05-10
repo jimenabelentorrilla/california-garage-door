@@ -25,7 +25,7 @@ function Testimonials() {
     }
   };
   return (
-    <div className='frame375'>
+    <div id="testimonials" className='frame375'>
         <div className='frame375-box'>
             <h3>Video Testimonials from Our Clients</h3>
             <p>See why people just like you chose Garage Door Repair Company to fix their garages!</p>

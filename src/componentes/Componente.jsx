@@ -25,7 +25,7 @@ function Job ({img, subtitle }){
 
 function Componente() {
 return (
-    <div className='frame1190'>
+    <div id="services" className='frame1190'>
         <div className='frame1190-flex'>
             <h3>Texas Garage Door Repair Services</h3>
             <p>We fix all types and components of garage doors or gates</p>
