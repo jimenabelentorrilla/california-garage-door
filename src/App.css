@@ -202,6 +202,9 @@
   line-height: 144%;
   color: #1D1818;
   }
+  .about-us-flex{
+    display: none;
+  }
 /***************tercer row***********************/
 .frame1182{
   height: 359px;
@@ -358,6 +361,9 @@
   padding-bottom: 25px;
   width: 277px;
 }
+.gallery-testimonials{
+  display: none;
+}
 
 /*****************************/
 .frame-gallery{
@@ -392,6 +398,9 @@
 .rct-818{
   display: flex;
   justify-content: center;
+}
+.gallery-work{
+  display: none;
 }
 /*******************************/
 .reviews{
@@ -809,6 +818,9 @@
   line-height: 144%;
   color: #1D1818;
   }
+  .about-us-flex{
+    display: none;
+  }
 /***********************************************/
 .frame1182{
   height: 332px;
@@ -983,6 +995,9 @@
 .carousel-flex{
   padding: 47px;
 }
+.gallery-testimonials{
+  display: none;
+}
 /*****************************/
 .frame-gallery{
   height: 629px;
@@ -993,7 +1008,6 @@
   flex-direction: column;
   gap:19px;
   padding: 64px 0px;
-
 }
 
 .frame1146 h3{
@@ -1020,6 +1034,9 @@
 .rct-818 img{
   width: 336px;
   height: 223px;
+}
+.gallery-work{
+  display: none;
 }
 /*************************************/
 .reviews{
@@ -1105,7 +1122,7 @@
 .card-team-size p{
   font-family: 'IBM Plex Sans';
   font-weight: 400;
-  font-size: 36px;
+  font-size: 22px;
   line-height: 140%;
   text-align: center;
   letter-spacing: 0.03em;
